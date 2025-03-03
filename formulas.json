@@ -1,0 +1,11 @@
+{
+    "formulas": [
+        { "colourCode": "1234", "baseCode": "AA", "pastes": [{ "code": "PP", "amount": 0.58 }, { "code": "RT", "amount": 0.58 }, { "code": "TT", "amount": 2.33 }], "extInt": "Ext", "rgb": 13817045 },
+        { "colourCode": "BS 00 A 01", "baseCode": "AA", "pastes": [{ "code": "PP", "amount": 0.58 }, { "code": "RT", "amount": 0.58 }, { "code": "TT", "amount": 2.33 }], "extInt": "Int", "rgb": 13817045 },
+        { "colourCode": "BS 00 A 03", "baseCode": "AA", "pastes": [{ "code": "RT", "amount": 0.29 }, { "code": "ST", "amount": 0.87 }, { "code": "TT", "amount": 3.78 }], "extInt": "Ext", "rgb": 46450632 },
+        { "colourCode": "BS 00 A 03", "baseCode": "AA", "pastes": [{ "code": "RT", "amount": 0.29 }, { "code": "ST", "amount": 0.87 }, { "code": "TT", "amount": 3.78 }], "extInt": "Int", "rgb": 46450632 },
+        { "colourCode": "BS 00 A 05", "baseCode": "AA", "pastes": [{ "code": "RT", "amount": 0.87 }, { "code": "ST", "amount": 2.91 }, { "code": "TT", "amount": 9.6 }], "extInt": "Ext", "rgb": 11579826 },
+        { "colourCode": "BS 00 A 05", "baseCode": "AA", "pastes": [{ "code": "RT", "amount": 0.87 }, { "code": "ST", "amount": 2.91 }, { "code": "TT", "amount": 9.6 }], "extInt": "Int", "rgb": 11579826 },
+        { "colourCode": "Z 73100", "baseCode": "AA", "pastes": [{ "code": "FT", "amount": 0.19 }, { "code": "MT", "amount": 0.48 }, { "code": "RT", "amount": 0.29 }, { "code": "TT", "amount": 0.29 }], "extInt": "Int", "rgb": 15330272 }
+    ]
+}

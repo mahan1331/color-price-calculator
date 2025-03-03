@@ -1,0 +1,20 @@
+{
+    "pastes": [
+        { "code": "9600011", "name": "XT", "pricePerLiter": 11705000 },
+        { "code": "9600012", "name": "US", "pricePerLiter": 21600000 },
+        { "code": "9600013", "name": "TT", "pricePerLiter": 4509000 },
+        { "code": "9600014", "name": "RT", "pricePerLiter": 6116000 },
+        { "code": "9600015", "name": "FT", "pricePerLiter": 6386000 },
+        { "code": "9600016", "name": "MT", "pricePerLiter": 5778000 },
+        { "code": "9600017", "name": "ST", "pricePerLiter": 5400000 },
+        { "code": "9600018", "name": "ZT", "pricePerLiter": 5535000 },
+        { "code": "9600019", "name": "PP", "pricePerLiter": 7425000 },
+        { "code": "9600020", "name": "MM", "pricePerLiter": 25920000 },
+        { "code": "9600022", "name": "KS", "pricePerLiter": 13149000 },
+        { "code": "9600023", "name": "LS", "pricePerLiter": 7081000 },
+        { "code": "9600024", "name": "MS", "pricePerLiter": 7830000 },
+        { "code": "9600025", "name": "RS", "pricePerLiter": 6750000 },
+        { "code": "9600026", "name": "LT", "pricePerLiter": 7081000 },
+        { "code": "9600027", "name": "VT", "pricePerLiter": 8370000 }
+    ]
+}

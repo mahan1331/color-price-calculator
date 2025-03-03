@@ -1,0 +1,18 @@
+{
+    "bases": [
+        { "code": "1410000", "description": "رنگ پیکواکریل براق", "unitPrice": 0, "unit": "کوارت", "weight": 1 },
+        { "code": "1410003", "description": "رنگپایه پیکوآکریل براق- C", "unitPrice": 0, "unit": "کوارت", "weight": 1 },
+        { "code": "1417003", "description": "رنگپایه پیکوآکریل براق C1", "unitPrice": 1790000, "unit": "کوارت+", "weight": 0 },
+        { "code": "1417011", "description": "رنگپایه پیکوآکریل براق A1", "unitPrice": 0, "unit": "کوارت+", "weight": 0 },
+        { "code": "1440000", "description": "رنگ پیکوآکریل براق", "unitPrice": 0, "unit": "گالن", "weight": 4 },
+        { "code": "1447011", "description": "رنگپایه پیکوآکریل براق A1", "unitPrice": 0, "unit": "گالن+", "weight": 0 },
+        { "code": "1710003", "description": "رنگپایه پیکوآکریل مات- C", "unitPrice": 0, "unit": "کوارت", "weight": 1.25 },
+        { "code": "1710011", "description": "رنگپایه پیکوآکریل مات- AA", "unitPrice": 0, "unit": "کوارت", "weight": 1.2 },
+        { "code": "1717002", "description": "رنگپایه پیکوآکریل مات B1", "unitPrice": 1676000, "unit": "کوارت+", "weight": 0 },
+        { "code": "1717003", "description": "رنگپایه پیکوآکریل مات C1", "unitPrice": 1392000, "unit": "کوارت+", "weight": 0 },
+        { "code": "1717011", "description": "رنگپایه پیکوآکریل مات A1", "unitPrice": 1964000, "unit": "کوارت+", "weight": 0 },
+        { "code": "2110002", "description": "رنگپایه روغنی پیکولوکس براق- B", "unitPrice": 1945000, "unit": "کوارت", "weight": 1 },
+        { "code": "2110003", "description": "رنگپایه روغنی پیکولوکس براق- C", "unitPrice": 1673000, "unit": "کوارت", "weight": 1 },
+        { "code": "2119911", "description": "رنگپایه روغنی پیکولوکس براق- AA", "unitPrice": 2232000, "unit": "کوارت", "weight": 1 }
+    ]
+}

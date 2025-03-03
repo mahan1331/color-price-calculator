@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محاسبه قیمت رنگ و فاکتور</title>
+    <style>
+        body {
+            font-family: 'BNazanin', Arial, sans-serif;
+            background-color: #f0f8f0;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+            color: #333;
+        }
+        .header {
+            background-color: #e6f3e6;
+            padding: 10px;
+            border: 1px solid #b3d9b3;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .input-container {
+            background-color: #d9f2d9;
+            padding: 15px;
+            border: 1px solid #b3d9b3;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        input, button {
+            padding: 8px;
+            font-size: 16px;
+            margin: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #result, #invoice {
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #b3d9b3;
+            margin-top: 20px;
+            display: none;
+            border-radius: 5px;
+        }
+        .invoice-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .invoice-table th, .invoice-table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            background-color: #f9f9f9;
+        }
+        .invoice-table th {
+            background-color: #e6f3e6;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>سیستم محاسبه قیمت رنگ - کاربر: ادمین</h2>
+        <p>تاریخ: ۹/۱۲/۱۴۰۲ - شماره فاکتور: ۱۱۱۹۴</p>
+    </div>
+    <div class="input-container">
+        <label for="colorCode">کد رنگ (مثلاً YLS کد یا BS 00 A 01):</label>
+        <input type="text" id="colorCode" placeholder="مثلاً YLS-123 یا BS 00 A 01"><br>
+        <button onclick="calculateAndShowInvoice()">محاسبه و نمایش فاکتور</button>
+    </div>
+    <div id="result">
+        <h3>جزئیات محاسبه:</h3>
+        <p id="priceDetails"></p>
+    </div>
+    <div id="invoice">
+        <h3>فاکتور فروش رنگ</h3>
+        <table class="invoice-table">
+            <thead>
+                <tr>
+                    <th>مورد</th>
+                    <th>مقدار (تومان)</th>
+                </tr>
+            </thead>
+            <tbody id="invoiceBody">
+                <tr>
+                    <td>قیمت پایه</td>
+                    <td id="basePrice">0</td>
+                </tr>
+                <tr>
+                    <td>قیمت خمیر</td>
+                    <td id="pastePrice">0</td>
+                </tr>
+                <tr>
+                    <td>دستمزد</td>
+                    <td id="laborPrice">0</td>
+                </tr>
+                <tr>
+                    <td><strong>قیمت کل</strong></td>
+                    <td id="totalPrice">0</td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="printInvoice()">چاپ فاکتور</button>
+        <button onclick="resetForm()">بازگشت</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
